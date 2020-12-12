@@ -41,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84038BC025849D6D00E121CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				844008F725840E4200945906 /* CurrentWeather.swift */,
+				844008FA2584122E00945906 /* WeatherIconManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		846A1A89258268D1005CB695 = {
 			isa = PBXGroup;
 			children = (
@@ -64,8 +73,7 @@
 				846A1A97258268D1005CB695 /* SceneDelegate.swift */,
 				846A1A99258268D1005CB695 /* ViewController.swift */,
 				846A1A9B258268D1005CB695 /* Main.storyboard */,
-				844008F725840E4200945906 /* CurrentWeather.swift */,
-				844008FA2584122E00945906 /* WeatherIconManager.swift */,
+				84038BC025849D6D00E121CF /* Model */,
 				846A1A9E258268D2005CB695 /* Assets.xcassets */,
 				846A1AA0258268D2005CB695 /* LaunchScreen.storyboard */,
 				846A1AA3258268D2005CB695 /* Info.plist */,
