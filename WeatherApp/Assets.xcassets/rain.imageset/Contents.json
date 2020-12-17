@@ -1,0 +1,26 @@
+{
+  "images" : [
+    {
+      "filename" : "rain.png",
+      "idiom" : "universal",
+      "locale" : "SwiftBook",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "rain-1.png",
+      "idiom" : "universal",
+      "locale" : "SwiftBook",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "rain-2.png",
+      "idiom" : "universal",
+      "locale" : "SwiftBook",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

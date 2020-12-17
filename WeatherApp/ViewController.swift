@@ -29,15 +29,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.addSubview(stack)
-        stack.addSubview(weatherView)
         createStackViewConstraint()
-        createRedConstraint()
+        createWeatherViewConstraint()
+        
+        stack.addArrangedSubview(weatherView)
+        view.addSubview(stack)
     }
 
     //MARK: - Constraint func
     
-    func createRedConstraint() {
+    func createWeatherViewConstraint() {
         weatherView.leftAnchor.constraint(equalTo: stack.leftAnchor, constant: 20.0).isActive = true
         weatherView.widthAnchor.constraint(equalTo: stack.widthAnchor, multiplier: 1/3).isActive = true
         weatherView.heightAnchor.constraint(equalToConstant: 70.0).isActive = true
