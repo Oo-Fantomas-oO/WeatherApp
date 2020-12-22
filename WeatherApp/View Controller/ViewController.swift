@@ -31,6 +31,7 @@ class ViewController: UIViewController {
         
         let image = configurateWeatherImageView()
         weatherIconStackView.addArrangedSubview(image)
+        
     }
 
     //MARK: - Configurate Stack View
@@ -67,7 +68,7 @@ class ViewController: UIViewController {
     
     func configurateWeatherImageView () -> UIImageView {
         let weatherImage = UIImageView()
-        weatherImage.image = UIImage(named: "sunny")
+        weatherImage.image = UIImage(named: "clear-day")
         weatherImage.contentMode = .scaleAspectFit
 //        weatherImage.backgroundColor = .black
         weatherImage.translatesAutoresizingMaskIntoConstraints = false
