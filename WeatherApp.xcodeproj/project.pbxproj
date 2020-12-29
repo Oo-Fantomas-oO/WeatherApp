@@ -70,20 +70,12 @@
 				846A1A97258268D1005CB695 /* SceneDelegate.swift */,
 				84E9D46A2592817D002187AB /* Wether Model */,
 				84560091258CFD0100B0B8F2 /* View Controller */,
-				848398362591F07B00DB7A7D /* Weather Model */,
 				846A1A9B258268D1005CB695 /* Main.storyboard */,
 				846A1A9E258268D2005CB695 /* Assets.xcassets */,
 				846A1AA0258268D2005CB695 /* LaunchScreen.storyboard */,
 				846A1AA3258268D2005CB695 /* Info.plist */,
 			);
 			path = WeatherApp;
-			sourceTree = "<group>";
-		};
-		848398362591F07B00DB7A7D /* Weather Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Weather Model";
 			sourceTree = "<group>";
 		};
 		84E9D46A2592817D002187AB /* Wether Model */ = {
